@@ -1,13 +1,13 @@
 ---
-title: "FOOD: Real-Time Human Presence and Out-of-Distribution Detection Using FMCW Radar"
+title: "RFOOD: Real-time Facial Authentication and Out -of-distribution Detection with Short-range FMCW Radar"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Boran Hamdi Sivrikaya
   - Muhammet Sami Yavuz
+  - Boran Hamdi Sivrikaya
   - Eckehard Steinbach
 
 # Author notes (optional)
@@ -27,10 +27,10 @@ publishDate: "2024-01-01T00:00:00Z"
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE International Conference on Image Processing*
-publication_short: In *ICIP*
+publication: In *International Conference on Machine Learning and Applications*
+publication_short: In *ICMLA*
 
-abstract: This paper proposes a short-range FMCW radar-based facial authentication and out-of-distribution (OOD) detection framework. Our pipeline jointly estimates the correct classes for the in-distribution (ID) samples and detects the OOD samples to prevent their inaccurate prediction. Our reconstruction-based architecture consists of a main convolutional block with one encoder and multi-decoder configuration, and intermediate linear encoder-decoder parts. Together, these elements form an accurate human face classifier and a robust OOD detector. For our dataset, gathered using a 60 GHz short-range FMCW radar, our network achieves an average classification accuracy of 98.07% in identifying in-distribution human faces. As an OOD detector, it achieves an average Area Under the Receiver Operating Characteristic (AUROC) curve of 98.50% and an average False Positive Rate at 95% True Positive Rate (FPR95) of 6.20%. Also, our extensive experiments show that the proposed approach outperforms previous OOD detectors in terms of common OOD detection metrics.
+abstract: Out-of-distribution (OOD) detection is critical for the safe deployment of modern neural network architectures, as it aims to identify samples outside the training domain. In this paper, we introduce RFOOD, a novel OOD detection framework designed for real-time, privacy-preserving facial authentication using low-cost frequency-modulated continuous-wave (FMCW) radar. RFOOD employs both range-Doppler and micro range- Doppler images to enhance the detection accuracy. The architecture consists of a multi-encoder multi-decoder Body Part (BP) and Intermediate Linear Encoder-Decoder (ILED) components. This design allows the system to accurately classify a single individual's face as in-distribution (ID) while identifying all other faces as OOD. On our dataset collected with 60 GHz short-range FMCW radar, RFOOD achieves an Area Under the Receiver Operating Characteristic (AUROC) curve of 94.13 % and a False Positive Rate of 18.12% at a True Positive Rate of 95 % (FPR95). Additionally, RFOOD outperforms state-of-the-art OOD detection methods in common OOD detection metrics and operates in real-time.
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -46,11 +46,11 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: https://arxiv.org/pdf/2406.04546
+url_pdf: https://ieeexplore.ieee.org/abstract/document/10903348
 url_code: ''
-url_dataset: 'https://syncandshare.lrz.de/getlink/fiQoBoPTK8npvXzYdTfr6a'
+url_dataset: 'https://syncandshare.lrz.de/getlink/fiVXWNxoYss8rRk2kZTUws/'
 url_poster: ''
-url_project: ''
+url_project: 'https://youtu.be/PI6bkqvjn28'
 url_slides: ''
 url_source: ''
 url_video: ''
