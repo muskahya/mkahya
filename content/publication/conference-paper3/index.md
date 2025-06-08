@@ -1,13 +1,13 @@
 ---
-title: "RFOOD: Real-time Facial Authentication and Out -of-distribution Detection with Short-range FMCW Radar"
+title: "FARE: A Deep Learning-Based Framework for Radar-Based Face Recognition and Out-of-Distribution Detection"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Muhammet Sami Yavuz
   - Boran Hamdi Sivrikaya
+  - Muhammet Sami Yavuz
   - Eckehard Steinbach
 
 # Author notes (optional)
@@ -15,11 +15,11 @@ author_notes: ""
   #- 'Equal contribution'
   #- 'Equal contribution'
 
-date: "2025-01-01T00:00:00Z"
+date: "2025-02-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-01-01T00:00:00Z"
+publishDate: "2025-02-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -27,11 +27,10 @@ publishDate: "2025-01-01T00:00:00Z"
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *International Conference on Machine Learning and Applications*
-publication_short: In *ICMLA*
+publication: In *International Conference on Acoustics, Speech and Signal Processing*
+publication_short: In *ICASSP*
 
-abstract: Out-of-distribution (OOD) detection is critical for the safe deployment of modern neural network architectures, as it aims to identify samples outside the training domain. In this paper, we introduce RFOOD, a novel OOD detection framework designed for real-time, privacy-preserving facial authentication using low-cost frequency-modulated continuous-wave (FMCW) radar. RFOOD employs both range-Doppler and micro range- Doppler images to enhance the detection accuracy. The architecture consists of a multi-encoder multi-decoder Body Part (BP) and Intermediate Linear Encoder-Decoder (ILED) components. This design allows the system to accurately classify a single individual's face as in-distribution (ID) while identifying all other faces as OOD. On our dataset collected with 60 GHz short-range FMCW radar, RFOOD achieves an Area Under the Receiver Operating Characteristic (AUROC) curve of 94.13 % and a False Positive Rate of 18.12% at a True Positive Rate of 95 % (FPR95). Additionally, RFOOD outperforms state-of-the-art OOD detection methods in common OOD detection metrics and operates in real-time.
-
+abstract: In this work, we propose a novel pipeline for face recognition and out-of-distribution (OOD) detection using shortrange FMCW radar. The proposed system utilizes RangeDoppler and micro Range-Doppler Images. The architecture features a primary path (PP) responsible for the classification of in-distribution (ID) faces, complemented by intermediate paths (IPs) dedicated to OOD detection. The network is trained in two stages; first, the PP is trained using triplet loss to optimize ID face classification. In the second stage, the PP is frozen, and the IPs—comprising simple linear autoen-coder networks—are trained specifically for OOD detection. Using our dataset generated with a 60 GHz FMCW radar, our method achieves an ID classification accuracy of 99.30% and an OOD detection AUROC of 96.91%.
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
@@ -46,11 +45,11 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: https://ieeexplore.ieee.org/abstract/document/10903348
+url_pdf: https://ieeexplore.ieee.org/abstract/document/10889758
 url_code: ''
-url_dataset: 'https://syncandshare.lrz.de/getlink/fiVXWNxoYss8rRk2kZTUws/'
+url_dataset: 'https://syncandshare.lrz.de/getlink/fiJ1ZPazuTkCGgUGnQAGVG/'
 url_poster: ''
-url_project: 'https://youtu.be/PI6bkqvjn28'
+url_project: ''
 url_slides: ''
 url_source: ''
 url_video: ''
