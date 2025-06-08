@@ -26,7 +26,7 @@ publishDate: "2023-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*IEEE Transactions on Radar Systems*"
+publication: "*arXiv*"
 publication_short: ""
 
 abstract: Detecting human presence indoors with millimeter-wave frequency-modulated continuous-wave (FMCW) radar faces challenges from both moving and stationary clutter. This work proposes a robust and real-time capable human presence and out-of-distribution (OOD) detection method using 60 GHz short-range FMCW radar. HOOD solves the human presence and OOD detection problems simultaneously in a single pipeline. Our solution relies on a reconstruction-based architecture and works with radar macro and micro range-Doppler images (RDIs). HOOD aims to accurately detect the presence of humans in the presence or absence of moving and stationary disturbers. Since HOOD is also an OOD detector, it aims to detect moving or stationary clutters as OOD in humans' absence and predicts the current scene's output as “no presence." HOOD performs well in diverse scenarios, demonstrating its effectiveness across different human activities and situations. On our dataset collected with a 60 GHz short-range FMCW radar, we achieve an average AUROC of 94.36%. Additionally, our extensive evaluations and experiments demonstrate that HOOD outperforms state-of-the-art (SOTA) OOD detection methods in terms of common OOD detection metrics. Importantly, HOOD also perfectly fits on Raspberry Pi 3B+ with an ARM Cortex-A53 CPU, which showcases its versatility across different hardware environments. 
@@ -41,7 +41,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://ieeexplore.ieee.org/document/10789192
+url_pdf: https://arxiv.org/pdf/2308.02396
 url_code: ''
 url_dataset: ''
 url_poster: ''
